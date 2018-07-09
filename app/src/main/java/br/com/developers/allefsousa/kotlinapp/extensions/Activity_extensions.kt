@@ -14,7 +14,7 @@ import android.widget.Toast
 /**
  * Created by allef on 09/07/2018.
  */
-class Activity_extensions {
+
     // findViewById + setOnClickListener
     fun AppCompatActivity.onClick(@IdRes viewId: Int, onClick: (v: android.view.View?) -> Unit) {
         val view = findViewById<View>(viewId)
@@ -49,4 +49,3 @@ class Activity_extensions {
     }
 
 
-}
